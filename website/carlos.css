@@ -1,0 +1,169 @@
+html {
+        scroll-behavior: smooth;
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #294B29;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #DBE7C9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section img {
+    max-width: 40%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #777;
+}
+
+/* Animation code */
+
+
+header {
+    text-align: center;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+
+nav {
+    text-align: center;
+    animation: slideInDown 1.5s ease-out;
+}
+
+#about {
+    text-align: center;
+    animation: fadeInLeft 1.5s ease-out;
+}
+
+
+#resume {
+    text-align: center;
+    animation: fadeInRight 1.5s ease-out;
+}
+
+
+#portfolio {
+    text-align: center;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+
+
+
+
+#contact {
+    text-align: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+
+footer {
+    text-align: center;
+    animation: slideInUp 1.5s ease-out;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
