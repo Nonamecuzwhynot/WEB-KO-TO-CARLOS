@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('CARLOS\ INC.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  button {
+    background-color: #060808;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27292b;
+  }
+  
+  /* Rest of your CSS code remains unchanged */
+  
+  
+  
+  header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1718165d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  nav li {
+  margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  section img {
+  max-width: 40%;
+  height: 200px;
+  border-radius: 50%;
+  }
+  
+  #about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d4d4;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    text-align: center;
+  }
+  
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 40px;
+    text-align: center;  /* Adjust as needed */
+    color: #777;
+    width: 100%;  /* Ensures the footer spans the full width of the viewport */
+    background-color: #f8f8f8;  /* Add background color if desired */
+  }
+  
+  
+  
+  /* Animation code */
+  
+  
+  header {
+  text-align: center;
+  animation: fadeInUp 1.5s ease-out;
+  }
+  
+  
+  nav {
+  text-align: center;
+  animation: slideInDown 1.5s ease-out;
+  }
+  
+  #about {
+  text-align: center;
+  animation: fadeInLeft 1.5s ease-out;
+  }
+  
+  
+  #resume {
+  text-align: center;
+  animation: fadeInRight 1.5s ease-out;
+  }
+  
+  
+  #portfolio {
+  text-align: center;
+  animation: fadeInUp 1.5s ease-out;
+  }
+  
+  
+  
+  
+  
+  #contact {
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+  }
+  
+  
+  footer {
+  text-align: center;
+  animation: slideInUp 1.5s ease-out;
+  }
+  
+  
+  
+  
+  
+  @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  @keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  @keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  }
+  
+  @keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  }
+  
+  @keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  }
+  
+  @keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  

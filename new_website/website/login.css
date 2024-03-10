@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('YE.png') center/cover no-repeat; /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    font-family: 'Tektur', sans-serif;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width as needed */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-btn {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Set your desired button hover color */
+}
+
+.reg-btn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.reg-btn a {
+    text-decoration: none;
+    color: #007bff; /* Set your desired link color */
+}
+
+.reg-btn a:hover {
+    text-decoration: underline;
+}
